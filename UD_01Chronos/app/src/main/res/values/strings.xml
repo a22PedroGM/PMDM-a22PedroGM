@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">UD_01Chronos</string>
+    <string name="Start">Iniciar</string>
+    <string name="Pause">Pausar</string>
+    <string name="Reboot">Reiniciar</string>
+
 </resources>

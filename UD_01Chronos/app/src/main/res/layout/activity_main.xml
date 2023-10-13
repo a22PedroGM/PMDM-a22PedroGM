@@ -8,12 +8,30 @@
     android:padding="16dp"
     android:gravity="center_horizontal">
 
-
     <Chronometer
+        android:layout_margin="10dp"
         android:id="@+id/cronometro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="56sp"
         />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:text="@string/Start"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btnPause"
+        android:layout_margin="10dp"
+        android:text="@string/Pause"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/btnReboot"
+        android:text="@string/Reboot"
+        android:layout_width="100dp"
+        android:layout_height="50dp"/>
+
 
 </LinearLayout>

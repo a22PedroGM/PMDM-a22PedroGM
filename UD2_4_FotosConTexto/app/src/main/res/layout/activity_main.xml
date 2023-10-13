@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    >
+
+    <ImageView
+        android:id="@+id/ourense"
+        android:layout_width="wrap_content"
+        android:clickable="true"
+        android:layout_height="271dp"
+        android:src="@drawable/ourense"
+        />
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="271dp"
+        android:text="Ourense"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:gravity="center"
+
+        />
+
+    <ImageView
+        android:id="@+id/santiago"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="225dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/catedral"
+        />
+
+    <TextView
+        android:layout_width="369dp"
+        android:layout_height="226dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="Santiago"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:textSize="30dp"
+
+        />
+
+    <TextView
+        android:id="@+id/invisible"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:visibility="invisible"
+        android:text=" "
+         />
+
+</FrameLayout>
