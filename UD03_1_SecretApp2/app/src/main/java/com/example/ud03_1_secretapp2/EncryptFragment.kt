@@ -29,4 +29,11 @@ class EncryptFragment : Fragment() {
         view.findViewById<TextView>(R.id.encryptedmssg).text = cifrado
         return view
     }
+    fun cifrado(message: String) = message.map{
+        if(it.isLetter())
+            it.uppercaseChar().code.minus('A'.code).plus(3).mod(26).plus('A'.code).toChar()
+        else
+            it
+
+    }.joinToString("")
 }
