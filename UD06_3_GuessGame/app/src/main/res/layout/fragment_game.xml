@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/textWord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18dp"
+        android:letterSpacing="1"
+        android:textSize="30sp"
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/textVidas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Te quedan 7 vidas"
+        android:textSize="20sp"
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/textIntento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:maxLength="1"
+        android:layout_margin="10dp"
+        android:hint="Introduce una letra"
+        android:gravity="center"
+        android:layout_gravity="center"
+        >
+
+    </EditText>
+    <Button
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guess"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+
+        >
+
+    </Button>
+
+
+</LinearLayout>
